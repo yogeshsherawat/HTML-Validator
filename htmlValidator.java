@@ -1,11 +1,11 @@
-package com.company;
+package HTMLValidator;
 
-import java.util.ArrayList;
+
 import java.util.HashSet;
 import java.util.Stack;
 
 
-public class HTMLValidator {
+ class HTMLValidator {
     private String htmlString="";
     private HashSet<String> selfClosingTag = new HashSet<>();
     private HashSet<String> ValidTags = new HashSet<>();
